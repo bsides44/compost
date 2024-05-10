@@ -27,7 +27,6 @@ const LandingPage = () => {
   const [userEmail, setUserEmail] = useState("");
 
   const joinMailingList = async (e) => {
-    console.log('userEmail', userEmail)
     e.preventDefault()
     setSendButton("Joining...");
     await mailingListSignup({

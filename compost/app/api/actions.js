@@ -8,7 +8,6 @@ const emailSchema = z.object({
 
 export async function mailingListSignup(sendObject) {
   "use server";
-console.log('formdata', sendObject)
 const email = sendObject.email;
 
   const validatedFields = emailSchema.safeParse({
