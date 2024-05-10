@@ -5,7 +5,18 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Compost",
-  description: "Bullshit free business",
+  description: "Your No-Bullshit Business Community",
+  openGraph: {
+    title: "Compost",
+    image: "/seedling.jpg",
+  },
+  twitter: {
+    title: "Compost | Your No-Bullshit Business Community ",
+    description:
+      "Your No-Bullshit Business Community.",
+    image: "/seedling.png",
+  },
+  metadataBase: "http://www.compost.vercel.app/",
 };
 
 export default function RootLayout({ children }) {

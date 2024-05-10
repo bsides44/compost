@@ -61,7 +61,7 @@ const LandingPage = () => {
                 </Button>
               </form>
               <p className="text-sm">
-                We'll never share your email.
+                We&apos;ll never share your email.
               </p>
             </div>
           </div>
@@ -85,7 +85,7 @@ const LandingPage = () => {
               <h2 className="text-4xl font-bold tracking-tighter sm:text-5xl">An Authentic Community</h2>
               <p
                 className="max-w-[600px] text-gray-700 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                What does good business look like? We're building a community for small business owners, entrepreneurs and wantrepreneurs, where real conversations can happen about how small business can respond to the times we're in now. 
+                What does good business look like? We&apos;re building a community for small business owners, entrepreneurs and wantrepreneurs, where real conversations can happen about how small business can respond to the times we&apos;re in now. 
               </p>
               <p
                 className="max-w-[600px] text-gray-700 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
@@ -98,7 +98,7 @@ const LandingPage = () => {
               <h3 className="mt-6 text-2xl font-bold tracking-tighter sm:text-3xl">Join Our Latest Event</h3>
               <p
                 className="mt-6 max-w-[600px] text-gray-700 md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Our first event is <b>Compost: How do you know when to throw in the trowel?</b> That's right, we're exploring death and business with people who've been there and people who are thinking about it. The event will be in-person in Wellington and streamed online. Sign up below to get notified when we've fixed a date.  
+                Our first event is <b>Compost: How do you know when to throw in the trowel?</b> That&apos;s right, we&apos;re exploring death and business with people who&apos;ve been there and people who are thinking about it. The event will be in-person in Wellington and streamed online. Sign up below to get notified when we&apos;ve fixed a date.  
               </p>
             </div>
             <div className="mt-6 flex flex-col gap-4 min-[400px]:flex-row">
