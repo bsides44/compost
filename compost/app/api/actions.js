@@ -26,7 +26,7 @@ const email = sendObject.email;
   sgMail.setApiKey(process.env.SENDGRID_API_KEY);
   const msg = {
     to: "hello@striverevolution.com",
-    cc: "tamara.buckland@gmail.com ",
+    cc: "tamara@bloomhq.co.nz",
     from: "hello@striverevolution.com",
     subject: "Someone Joined the Compost Waitlist ✔",
     text: `Hello. Hope you're having a good day. The email address ${validatedFields.data.email} would like to join the mailing list. Please send them a confirmation email.`,
